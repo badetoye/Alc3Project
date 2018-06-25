@@ -2,7 +2,6 @@
 // Variable declaration!
 var heigth, width , color;
 
-
 // When size is submitted by the user, call makeGrid() function
 $('#sizePicker').submit(function(event){
 	event.preventDefault();
@@ -10,16 +9,14 @@ $('#sizePicker').submit(function(event){
 	width = $('#inputWeight').val();
 	makeGrid(heigth,width);
 
-
 })
+//implement the makeGrid() function and create a grid of squares
+function makeGrid(n,m) {
+	$('tr').remove();//remove previously created table rows
 
-function makeGrid(x,y) {
-	$('tr').remove();
-
-	// Your code goes here!
-	for(var i=1; i<=x; i++) {
+	for(var i=1; i<=n; i++) {
 		$('#pixelCanvas').append('<tr id=table' + i + '></tr>');
-		for(var j=1; j<=y; j++) {
+		for(var j=1; j<=m; j++) {
 			$('#table' + i).append('<td></td>');
 		}
 	}
@@ -36,5 +33,3 @@ function makeGrid(x,y) {
 		}
 	})
 }
-	
-
