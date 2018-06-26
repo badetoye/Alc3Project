@@ -9,7 +9,9 @@ This is a single-page web app that allows users to draw pixel art on a customiza
 > Click a cell in the grid to fill that cell with the chosen color.
 
 ## Development Tools
-> HTML > CSS > JavaScript
+> HTML  
+> CSS
+> JavaScript
 ## Author
 Adetoye Bolaji Adeolu
 
