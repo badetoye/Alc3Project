@@ -41,3 +41,19 @@ td {
 input[type=number] {
     width: 6em;
 }
+#sizePicker {
+    /*color: green;*/
+    text-shadow: 1px 1px 2px green, 0 0 1em yellow, 0 0 0.2em red;
+}
+.button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 4px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
