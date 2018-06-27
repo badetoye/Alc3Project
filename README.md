@@ -20,3 +20,4 @@ Adetoye Bolaji Adeolu
 Thanks for checking the README page! :coffee:
 
 > Project Link [GitHub] (https://badetoye.github.io/Alc3Project/)
+- [x] **_Credit_** [Link](http://www.animatedimages.org)
