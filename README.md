@@ -20,4 +20,5 @@ Adetoye Bolaji Adeolu
 Thanks for checking the README page! :coffee:
 
 > Project Link [GitHub] (https://badetoye.github.io/Alc3Project/)
-:+1: **_Credit_(Animated Nigeria Flag)** [Link](http://www.animatedimages.org)
+
+> :+1: **_Credit_(Animated Nigeria Flag)** [Link](http://www.animatedimages.org)
