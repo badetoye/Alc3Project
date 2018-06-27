@@ -6,24 +6,32 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div>
+      <img src="logo.png" alt="logo" align="left" heigth="150" width="200">
+    </div>
+        <br>
     <h1>Lab: Pixel Art Maker</h1>
-    <div><img src="animated-nigeria-flag.gif" alt="flag" width="350" height="100"></div>
+      <div>
+        <img src="animated-nigeria-flag.gif" alt="flag" width="350" height="100">
+      </div>
 
     <h2>Choose Grid Size</h2>
-    <form id="sizePicker">
-        Grid Height:
-        <input type="number" id="inputHeight" name="height" min="1" value="1">
-        Grid Width:
-        <input type="number" id="inputWeight" name="width" min="1" value="1">
-        <input type="submit" class="button">
-    </form>
+      <form id="sizePicker">
+          Grid Height:
+          <input type="number" id="inputHeight" name="height" min="1" value="1">
+          Grid Width:
+          <input type="number" id="inputWeight" name="width" min="1" value="1">
+          <input type="submit" class="button">
+      </form>
 
     <h2>Pick A Color</h2>
-    <input type="color" id="colorPicker">
+      <input type="color" id="colorPicker">
 
     <h2>Design Canvas</h2>
-    <table id="pixelCanvas"></table>
+      <table id="pixelCanvas"></table>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="designs.js"></script>
+
+
 </body>
 </html>
