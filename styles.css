@@ -5,7 +5,7 @@ body {
 h1 {
     font-family:cursive;
     font-size: 70px;
-    text-shadow: 1px 7px 2px green, 0 0 1em yellow, 0 0 0.2em maroon;
+    text-shadow: 1px 7px 2px green, 0 0 1em red, 0 0 0.2em cyan;
     margin: 0.2em;
 }
 
