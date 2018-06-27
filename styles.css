@@ -20,7 +20,7 @@ h2:first-of-type {
 table,
 tr,
 td {
-    border: 1px solid RGB(128,128,0);
+    border: 1px solid black;
 }
 
 table {
