@@ -1,6 +1,6 @@
 
 // Variable declaration!
-var heigth, width , color;
+let heigth, width , color;
 
 // When size is submitted by the user, call makeGrid() function
 $('#sizePicker').submit(function(event){
@@ -14,9 +14,9 @@ $('#sizePicker').submit(function(event){
 function makeGrid(n,m) {
 	$('tr').remove();//remove previously created table rows
 
-	for(var i=1; i<=n; i++) {
+	for(let i=1; i<=n; i++) {
 		$('#pixelCanvas').append('<tr id=table' + i + '></tr>');
-		for(var j=1; j<=m; j++) {
+		for(let j=1; j<=m; j++) {
 			$('#table' + i).append('<td></td>');
 		}
 	}
