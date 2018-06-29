@@ -3,7 +3,8 @@ body {
 }
 
 h1 {
-    font-family:cursive;
+    /*font-family: Merienda One;*/
+    font-family: cursive;
     font-size: 70px;
     text-shadow: 1px 7px 2px green, 0 0 1em red, 0 0 0.2em cyan;
     margin: 0.2em;
@@ -11,6 +12,8 @@ h1 {
 
 h2 {
     margin: 1em 0 0.25em;
+    font-family: Baloo;
+    color: #808000;
 }
 
 h2:first-of-type {
